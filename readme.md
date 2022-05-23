@@ -11,7 +11,10 @@ We'll be creating an app that connects to [OMDB](http://www.omdbapi.com), a publ
 
 * Fork and clone this repository, which has a starter app provided for you.
 * Run `npm install` to install dependencies
-* Read the API [documentation](http://www.omdbapi.com).
+* touch `.env`
+* add your api key to the dotenv file `OMDB_API_KEY=< your omdb api key >`
+* run `nodemon` to and navigate to `localhost:3000` to see the app
+* follow the directions laid out in [part 2 of this asssignment](./part2.md)
 
 # Part 1: Search
 
